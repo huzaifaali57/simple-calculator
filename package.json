@@ -1,10 +1,13 @@
 {
-  "name": "huzaifa57-simple-calculator",
+  "name": "@huzaifa57/-simple-calculator",
   "version": "1.0.0",
   "description": "A simple calculator use to solve numerical problems by using typescript",
   "main": "index.js",
   "type": "module",
   "bin" : "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
